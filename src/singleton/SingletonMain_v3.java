@@ -1,5 +1,8 @@
 package singleton;
 
+/**
+ * 싱글톤 패턴
+ */
 public class SingletonMain_v3 {
     static void main() {
         // Thread-safe 하지 않다.

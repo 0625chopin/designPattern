@@ -1,6 +1,7 @@
 package singleton;
 
 /**
+ * 싱글톤 패턴
  * Thread-safe하지 않음.
  */
 public class SingletonMain_v1 {
