@@ -1,4 +1,4 @@
-package creationPatterns.adaptor.type1;
+package structuralPattrens.adaptor.type1;
 
 public class UsbAdaptor implements UsbB {
 

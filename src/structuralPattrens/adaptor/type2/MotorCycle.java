@@ -1,4 +1,4 @@
-package creationPatterns.adaptor.type2;
+package structuralPattrens.adaptor.type2;
 
 public interface MotorCycle {
 
