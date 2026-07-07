@@ -19,5 +19,17 @@ public class Main {
         // 바깥쪽부터 실행되어 ID -> 비밀번호 -> 블랙리스트 -> 로그인 순으로 동작
         LoginProcess idAndPwdAndBlackListCheck = new IdCheck(new PwdCheck( new CheckBlackList(new Login())));
         idAndPwdAndBlackListCheck.validationCheck_and_login();
+        System.out.println();
+
+        // [builder pattern 추가] Builer 패턴으로 감쌓아 method chainning 방식
+        LoginProcess login =
+                LoginBuilder.start()
+                        .checkBlackList()
+                        .checkPwd()
+                        .checkId()
+                        .build();
+
+        login.validationCheck_and_login();
+
     }
 }
