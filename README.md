@@ -12,11 +12,11 @@ Java로 GoF 디자인 패턴을 학습하며 정리한 예제 모음이다.
 
 | 패턴 | 경로 |
 |------|------|
-| 싱글턴 (Singleton) | [`src/creationPatterns/singleton`](./src/creationPatterns/singleton) |
-| 팩토리 (Factory) | [`src/creationPatterns/factoryMethod`](./src/creationPatterns/factoryMethod) |
-| 추상 팩토리 (Abstract Factory) | [`src/creationPatterns/abstractMethod`](./src/creationPatterns/abstractMethod) |
-| 빌더 (Builder) | [`src/creationPatterns/builder`](./src/creationPatterns/builder) |
-| 프로토타입 (Prototype) | [`src/creationPatterns/prototype`](./src/creationPatterns/prototype) |
+| 싱글턴 (Singleton) | [`src/creationPatterns/singleton`](./src/creationPatterns/singleton/README.md) |
+| 팩토리 (Factory) | [`src/creationPatterns/factoryMethod`](./src/creationPatterns/factoryMethod/README.md) |
+| 추상 팩토리 (Abstract Factory) | [`src/creationPatterns/abstractMethod`](./src/creationPatterns/abstractMethod/README.md) |
+| 빌더 (Builder) | [`src/creationPatterns/builder`](./src/creationPatterns/builder/README.md) |
+| 프로토타입 (Prototype) | [`src/creationPatterns/prototype`](./src/creationPatterns/prototype/README.md) |
 
 ### 구조 패턴 (Structural Patterns)
 클래스와 객체를 조합해 더 큰 구조를 만드는 패턴. **→ [상세 목록 문서](./src/structuralPattrens/README.md)**
@@ -48,6 +48,6 @@ Java로 GoF 디자인 패턴을 학습하며 정리한 예제 모음이다.
 | 방문자 (Visitor) | [`src/behavioralPatterns/visitor`](./src/behavioralPatterns/visitor) |
 
 ## 진행 현황
-- ✅ **구조 패턴**: 7개 패턴 모두 예제 + 역할 주석 + 개별 README 정리 완료
-- 🔨 **생성 패턴**: 5개 패턴 예제 구현 완료, 상위 목록 README 정리 완료 (개별 README·역할 주석은 예정)
+- ✅ **생성 패턴**: 5개 패턴 모두 예제 + 역할 주석 + 개별 README 정리 완료
+- ✅ **구조 패턴**: 7개 패턴 모두 예제 + 역할 주석 + 개별 README 정리 완료 (프록시는 가상·보호 2종 예제)
 - ⏳ **행위 패턴**: 폴더 구조만 준비, 예제 작성 예정

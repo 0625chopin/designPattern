@@ -7,13 +7,13 @@
 
 ## 패턴 목록
 
-| 패턴 | 한 줄 요약 | 경로 |
+| 패턴 | 한 줄 요약 | 문서 |
 |------|-----------|------|
-| **싱글턴 (Singleton)** | 인스턴스를 하나만 생성해 공유. thread-safety를 3단계(v1~v3)로 발전시키며 비교 | [`singleton`](./singleton) |
-| **팩토리 (Factory)** | 결제 객체 생성 로직을 팩토리로 분리해 `new` 없이 결제 수단 객체를 획득 | [`factoryMethod`](./factoryMethod) |
-| **추상 팩토리 (Abstract Factory)** | 종족별(인간/오크) 연관 제품군(무기+갑옷)을 일관성 있게 생성 | [`abstractMethod`](./abstractMethod) |
-| **빌더 (Builder)** | 선택적 필드가 많은 불변 PC 객체를 메서드 체이닝으로 단계적 조립 | [`builder`](./builder) |
-| **프로토타입 (Prototype)** | `clone()`으로 기존 객체를 복제해 원본과 독립된 인스턴스 획득 | [`prototype`](./prototype) |
+| **싱글턴 (Singleton)** | 인스턴스를 하나만 생성해 공유. thread-safety를 3단계(v1~v3)로 발전시키며 비교 | [singleton/README.md](./singleton/README.md) |
+| **팩토리 (Factory)** | 결제 객체 생성 로직을 팩토리로 분리해 `new` 없이 결제 수단 객체를 획득 | [factoryMethod/README.md](./factoryMethod/README.md) |
+| **추상 팩토리 (Abstract Factory)** | 종족별(인간/오크) 연관 제품군(무기+갑옷)을 일관성 있게 생성 | [abstractMethod/README.md](./abstractMethod/README.md) |
+| **빌더 (Builder)** | 선택적 필드가 많은 불변 PC 객체를 메서드 체이닝으로 단계적 조립 | [builder/README.md](./builder/README.md) |
+| **프로토타입 (Prototype)** | `clone()`으로 기존 객체를 복제해 원본과 독립된 인스턴스 획득 | [prototype/README.md](./prototype/README.md) |
 
 ## 패턴별 상세
 
