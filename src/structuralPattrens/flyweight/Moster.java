@@ -19,7 +19,7 @@ public class Moster {
         this.position_x = position_x;
         this.position_y = position_y;
 
-        // 나무 객체를 생성 후 메모리 크기 증가.
+        // 몬스터 객체를 생성 후 메모리 크기 증가.
         Memory.size += this.objSize;
     }
 }
