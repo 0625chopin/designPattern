@@ -1,5 +1,9 @@
 package structuralPattrens.composite;
 
+// [컴포지트 패턴 - Client(사용 예)]
+// Leaf(Student)와 Composite(ClazzInfo)를 구분 없이 동일한 방식으로 다룬다.
+// 학급 안에 학급(A-CLASS, B-CLASS)을 넣어 트리를 구성하고,
+// 최상위 학급의 점수를 요청하면 트리 전체가 재귀적으로 집계된다.
 public class Main {
     static void main() {
         // 1. 학급 인스턴스 생성

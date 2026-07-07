@@ -3,9 +3,14 @@ package structuralPattrens.composite;
 import java.util.ArrayList;
 import java.util.List;
 
+// [컴포지트 패턴 - Composite(복합 객체) 역할]
+// 자식(StudentInfo) 목록을 가지며, 요청을 자식들에게 재귀적으로 위임한다.
+// 자식 목록의 타입이 StudentInfo이므로 학생(Student)뿐 아니라
+// 또 다른 학급(ClazzInfo)도 담을 수 있어 계층을 무한히 중첩할 수 있다.
 public class ClazzInfo implements StudentInfo {
 
     private String ClazzName;  // 학급 이름
+    // 자식 목록: Leaf(Student)와 Composite(ClazzInfo)를 함께 담을 수 있다
     private List<StudentInfo> studentInfoList = new ArrayList<>();
 
     public ClazzInfo(String ClazzName) {
