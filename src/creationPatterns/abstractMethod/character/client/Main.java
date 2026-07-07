@@ -6,6 +6,9 @@ import creationPatterns.abstractMethod.character.factory.OrcFactory;
 import creationPatterns.abstractMethod.character.product.ammor.Ammor;
 import creationPatterns.abstractMethod.character.product.weapon.Weapon;
 
+// [추상 팩토리 패턴 - 클라이언트(Client) 역할]
+// AbstractFactory(CharacterFactory)와 추상 제품 타입에만 의존하는 진입점이다.
+// 사용할 구체 팩토리만 교체하면 제품군(무기 + 갑옷) 전체가 일관되게 바뀐다.
 /**
  * Abstract Factory Pattern은 서로 관련된 객체들의 집합(Product Family)을 생성하는 인터페이스를 제공하는 생성(Creational) 디자인 패턴
  *

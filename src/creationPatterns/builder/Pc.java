@@ -1,5 +1,8 @@
 package creationPatterns.builder;
 
+// [빌더 패턴 - 제품(Product) 역할]
+// 최종적으로 만들어지는 복잡한 객체이다. 모든 필드가 final이며 생성자는 private으로 감춰
+// 오직 Builder를 통해서만 생성되도록 강제한다(불변 객체). 정적 진입점 builder(...)로 Builder를 반환한다.
 public class Pc {
 
     private final int pcOrderNo;
@@ -25,6 +28,9 @@ public class Pc {
     }
 
     // ===== Builder를 Pc 안에 넣음 =====
+    // [빌더 패턴 - 빌더(Builder) 역할]
+    // 제품(Pc)의 생성 과정을 담당하는 정적 중첩 클래스이다. 필수값(pcOrderNo, pcNumber)은 생성자로 받고,
+    // 선택값은 this를 반환하는 세터로 체이닝하여 설정한 뒤 build()로 최종 Pc 인스턴스를 조립해 반환한다.
     public static class Builder {
 
         private final int pcOrderNo;

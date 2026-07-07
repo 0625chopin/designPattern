@@ -19,6 +19,9 @@ import java.util.List;
  *     같은 구조의 객체를 반복 생성할 때
  *     런타임에 객체 종류가 결정될 때
  */
+// [프로토타입 패턴 - 클라이언트(Client, 진입점) 역할]
+// 원본 리스트와 복제 리스트를 참조 비교(==)하여 복제본이 원본과 별개 인스턴스임을 확인한다.
+// (원본 리스트끼리는 true, 복제 리스트/요소는 false)
 public class Main {
     static void main() throws CloneNotSupportedException {
         Student s1 = new Student(1, "김");

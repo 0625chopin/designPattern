@@ -8,6 +8,9 @@ import creationPatterns.factoryMethod.payment.product.Payment;
  *
  * 핵심 목적은 객체를 생성하는 코드를 사용하는 코드(Client)와 분리하여 새로운 객체 타입이 추가되더라도 기존 코드를 최소한으로 수정
  */
+// [팩토리 패턴 - 클라이언트(Client) 역할, 진입점]
+// 팩토리에 문자열("CARD"/"NAVER")만 넘겨 Payment 객체를 얻고 pay()를 호출한다.
+// new 키워드로 구체 클래스를 직접 생성하지 않으므로 구체 결제 수단에 의존하지 않는다.
 public class Main {
     static void main() {
         Payment payment1 = PaymentFactory.create("CARD");
