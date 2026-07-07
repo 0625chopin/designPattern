@@ -8,12 +8,12 @@ Java로 GoF 디자인 패턴을 학습하며 정리한 예제 모음이다.
 ## 패턴 분류
 
 ### 생성 패턴 (Creational Patterns)
-객체의 생성 과정을 캡슐화하여 유연하게 만드는 패턴.
+객체의 생성 과정을 캡슐화하여 유연하게 만드는 패턴. **→ [상세 목록 문서](./src/creationPatterns/README.md)**
 
 | 패턴 | 경로 |
 |------|------|
 | 싱글턴 (Singleton) | [`src/creationPatterns/singleton`](./src/creationPatterns/singleton) |
-| 팩토리 메서드 (Factory Method) | [`src/creationPatterns/factoryMethod`](./src/creationPatterns/factoryMethod) |
+| 팩토리 (Factory) | [`src/creationPatterns/factoryMethod`](./src/creationPatterns/factoryMethod) |
 | 추상 팩토리 (Abstract Factory) | [`src/creationPatterns/abstractMethod`](./src/creationPatterns/abstractMethod) |
 | 빌더 (Builder) | [`src/creationPatterns/builder`](./src/creationPatterns/builder) |
 | 프로토타입 (Prototype) | [`src/creationPatterns/prototype`](./src/creationPatterns/prototype) |
@@ -32,7 +32,7 @@ Java로 GoF 디자인 패턴을 학습하며 정리한 예제 모음이다.
 | 프록시 (Proxy) | [`src/structuralPattrens/proxy`](./src/structuralPattrens/proxy/README.md) |
 
 ### 행위 패턴 (Behavioral Patterns)
-객체 간의 책임 분배와 상호작용(알고리즘, 흐름)을 다루는 패턴.
+객체 간의 책임 분배와 상호작용(알고리즘, 흐름)을 다루는 패턴. **→ [상세 목록 문서](./src/behavioralPatterns/README.md)** (예제 작성 예정)
 
 | 패턴 | 경로 |
 |------|------|
@@ -48,5 +48,6 @@ Java로 GoF 디자인 패턴을 학습하며 정리한 예제 모음이다.
 | 방문자 (Visitor) | [`src/behavioralPatterns/visitor`](./src/behavioralPatterns/visitor) |
 
 ## 진행 현황
-- ✅ **구조 패턴**: 7개 패턴 모두 역할 주석 및 README 정리 완료
-- ⏳ 생성 패턴 / 행위 패턴: 예제 작성 및 문서화 진행 중
+- ✅ **구조 패턴**: 7개 패턴 모두 예제 + 역할 주석 + 개별 README 정리 완료
+- 🔨 **생성 패턴**: 5개 패턴 예제 구현 완료, 상위 목록 README 정리 완료 (개별 README·역할 주석은 예정)
+- ⏳ **행위 패턴**: 폴더 구조만 준비, 예제 작성 예정
