@@ -1,5 +1,8 @@
 package behavioralPatterns.iterator;
 
+// [이터레이터 패턴 - Client(사용 예) 역할]
+// 집합체에서 이터레이터를 받아 hasNext()/next()만으로 순회한다.
+// 내부가 배열인지 리스트인지 전혀 몰라도 동일한 방식으로 접근할 수 있다.
 public class Main {
     static void main() {
         // 1. 집합체 생성
