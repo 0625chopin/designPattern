@@ -32,13 +32,13 @@ Java로 GoF 디자인 패턴을 학습하며 정리한 예제 모음이다.
 | 프록시 (Proxy) | [`src/structuralPattrens/proxy`](./src/structuralPattrens/proxy/README.md) |
 
 ### 행위 패턴 (Behavioral Patterns)
-객체 간의 책임 분배와 상호작용(알고리즘, 흐름)을 다루는 패턴. **→ [상세 목록 문서](./src/behavioralPatterns/README.md)** (예제 작성 예정)
+객체 간의 책임 분배와 상호작용(알고리즘, 흐름)을 다루는 패턴. **→ [상세 목록 문서](./src/behavioralPatterns/README.md)** (예제 작성 진행 중)
 
 | 패턴 | 경로 |
 |------|------|
 | 커맨드 (Command) | [`src/behavioralPatterns/command`](./src/behavioralPatterns/command) |
 | 인터프리터 (Interpreter) | [`src/behavioralPatterns/interpreter`](./src/behavioralPatterns/interpreter) |
-| 이터레이터 (Iterator) | [`src/behavioralPatterns/iterator`](./src/behavioralPatterns/iterator) |
+| 이터레이터 (Iterator) ✅ | [`src/behavioralPatterns/iterator`](./src/behavioralPatterns/iterator/README.md) |
 | 중재자 (Mediator) | [`src/behavioralPatterns/mediator`](./src/behavioralPatterns/mediator) |
 | 메멘토 (Memento) | [`src/behavioralPatterns/memento`](./src/behavioralPatterns/memento) |
 | 옵서버 (Observer) | [`src/behavioralPatterns/observer`](./src/behavioralPatterns/observer) |
@@ -50,4 +50,4 @@ Java로 GoF 디자인 패턴을 학습하며 정리한 예제 모음이다.
 ## 진행 현황
 - ✅ **생성 패턴**: 5개 패턴 모두 예제 + 역할 주석 + 개별 README 정리 완료
 - ✅ **구조 패턴**: 7개 패턴 모두 예제 + 역할 주석 + 개별 README 정리 완료 (프록시는 가상·보호 2종 예제)
-- ⏳ **행위 패턴**: 폴더 구조만 준비, 예제 작성 예정
+- ⏳ **행위 패턴**: 예제 작성 진행 중 (이터레이터 완료)
